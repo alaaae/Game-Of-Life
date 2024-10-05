@@ -157,7 +157,8 @@ draw_gsa:
     loop:
       mv a0, t5 #argument for get_gsa
 
-      jal get_gsa
+      /*test test allah allah*/
+      jal get_gsa 
       /*put the values of the leds in the right place of the representation*/
       slli a0, a0, 16
       /*put the row num in the right place*/
